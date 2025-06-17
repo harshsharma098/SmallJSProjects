@@ -1,0 +1,46 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  padding: 10px 20px;
+  background-color: #1e1e1e;
+  text-align: left;
+}
+
+nav a {
+  color: rgb(236, 240, 29);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  text-align: center;
+}
+
+#banner span {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+#clock {
+  font-size: 60px;
+  font-weight: bold;
+  background-color: #000000cc;
+  padding: 30px 60px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.6);
+  color: white;
+  letter-spacing: 2px;
+}
